@@ -29,7 +29,7 @@ export const ProfilePageHeader = (props: ProfilePageHeaderProps) => {
 
     const onSave = useCallback(() => {
         dispatch(updateProfileData());
-    }, [dispatch, onCancelEdit]);
+    }, [dispatch]);
 
     return (
         <div className={classNames(cls.ProfilePageHeader, {}, [className])}>

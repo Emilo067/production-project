@@ -1,5 +1,4 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { AxiosInstance } from 'axios';
 import { ThunkConfig } from 'app/providers/StoreProvider';
 import { Profile } from '../../types/profile';
 
@@ -21,7 +20,6 @@ export const fetchProfileData = createAsyncThunk<
 
             return response.data;
         } catch (e) {
-            console.log(e);
             return rejectWithValue('error');
         }
     },

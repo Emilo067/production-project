@@ -10,7 +10,7 @@
   "throw error": "throw error",
   "Главная": "Main",
   "О сайте": "About us",
-  "Переключить": "Переключить",
+  "Переключить": "Switch",
   "Короткий язык": "En",
   "Войти": "Login",
   "increment": "increment",
@@ -26,5 +26,6 @@
   "Данные не указаны": "Data not provided",
   "Некоректный регион": "Incorrect region",
   "Имя и фамилия обязательны": "First and last name are required",
-  "Некорректный возраст": "Incorrect age"
+  "Некорректный возраст": "Incorrect age",
+  "Комментарии отсутствуют": "No comments"
 }

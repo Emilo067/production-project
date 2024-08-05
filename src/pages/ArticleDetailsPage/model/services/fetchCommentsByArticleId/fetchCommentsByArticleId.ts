@@ -22,6 +22,7 @@ export const fetchCommentsByArticleId = createAsyncThunk<
                     _expand: 'user',
                 },
             });
+
             if (!response.data) {
                 throw new Error();
             }
